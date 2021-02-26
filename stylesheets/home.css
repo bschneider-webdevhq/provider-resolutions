@@ -1,0 +1,149 @@
+body {
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    background-color: #181818;
+}
+
+#header-container {
+    background-color: #05a7cd;
+    color: #fbfbfb
+}
+
+#hamburger-container {
+    background-color: #336799;
+}
+
+#pr-detail-header {
+    border-left: 1.5px solid black;
+    padding-left: 10px;
+}
+
+.post-header-body {
+    width: 80%;
+    margin: auto;
+    background-color: #fbfbfb;
+}
+
+#j-michael-pic {
+    background-image: linear-gradient(to bottom, #fbfbfb, #336799);
+}
+
+#j-michael-title {
+    background-color: rgba(128, 128, 128, 0.4);
+    color: #181818;
+}
+
+.email-alert {
+    background-color: #05A7CD
+}
+
+#email-card-header {
+    color: #fbfbfb;
+    margin: auto;
+}
+
+#email-card-body {
+    width: 80%;
+    margin: auto;
+    background-color: #fbfbfb;
+}
+
+.about-photos-desktop {
+    width: 100%;
+    object-fit: scale-down;
+    height: 300px;
+    margin: auto;
+    
+}
+
+.about-photos {
+    object-fit: scale-down;
+    height: 300px;
+    border-radius: 10px;
+}
+
+#resource-body {
+    color: #fbfbfb;
+    background-color: #e37223;
+}
+
+#book-detail-container {
+    background-image: linear-gradient(to bottom,#e37223, #d2a97c); 
+}
+
+@media screen and (max-width: 768px) {
+    #book-detail-container {
+        background-image: linear-gradient(to bottom, #d2a97c, #fbfbfb);
+    }
+  
+}
+
+@media screen and (min-width: 768px) {
+    #amazon-link {
+        background-image: linear-gradient(to bottom, #d2a97c, #fbfbfb);
+    }
+}
+
+#conflict-book {
+    background-image: linear-gradient(to bottom,#e37223, #d2a97c) 
+}
+
+#slideshow {
+    text-overflow: ellipsis;
+}
+
+
+
+#conflict-book > img {
+    box-shadow: 4px 2.5px 5px #181818;
+    overflow-x: hidden;
+}
+
+#book-detail-footer {
+    background-color: #fbfbfb;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+}
+
+#review-header {
+    background-color: lightgray;
+}
+
+.star-icon {
+    color: #F7941E;
+}
+
+#hamburger-icon {
+    font-size: 1.5em;
+}
+
+.contact-link {
+    border: 1px solid black;
+    border-radius: 2px; 
+}
+
+.contact-link:hover, .contact-link:focus {
+    color: #fbfbfb;
+    background-color: #05a7cd;
+}
+
+footer {
+    background-color: #05a7cd !important;
+    color: #fbfbfb;
+}
+
+/* Color Palette
+
+Dark Blue - #336799
+
+White - #FBFBFB
+
+Orange - #E37223
+
+Light Blue - #05A7CD
+
+Black - #181818
+
+*/

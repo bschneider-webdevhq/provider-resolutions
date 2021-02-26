@@ -1,0 +1,48 @@
+-- Issue List -- 
+
+# CRITICAL
+
+** Rename home.js to home.js.jquery; or whatever the best naming practice is
+
+** Forms needed a UI makeover
+
+** Resizing when the mobile nav is open causes nav to collapse, and the icon to remain constant, meaning that the "X" will not disappear if the nav collapses due to resizing.
+
+** Clicking out also doesnt change x back
+
+# To Do
+
+** Nav icons for desktop version
+
+** About (Book, Blog, Udemy)
+
+** alts needed
+
+** Links working
+
+** Footer (Mobile, Desktop)
+
+** Signature (New Logo)
+
+
+
+# Nice to Have
+
+** Favicon should represent an app icon if users add it to their iphone homescreen.
+
+** Chatbot, either under contact, or in the lower right hand corner. Using Amazon Lex
+
+** Better dropdown menu
+
+
+# Dad Request
+
+** center justified paragraps in About
+
+** delete left border paragraph next to image
+
+** book hover to amazon
+
+** make links more readily 
+
+** When done, invalidate on AWS with just /

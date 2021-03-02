@@ -134,6 +134,18 @@ footer {
     color: #fbfbfb;
 }
 
+/* Note this */
+.nav-element {
+    background: linear-gradient(to left, #05a7cd 51%, white 49%) right center;
+    background-size: 200%;
+    transition: .25s ease-out;
+}
+
+.nav-element:hover {
+    background-position: left center;
+    color: #05a7cd;
+}
+
 /* Color Palette
 
 Dark Blue - #336799

@@ -6,8 +6,10 @@ $(document).ready(()=> {
 
   $("#dropdownMenuMobile").on("pointerdown", function() {
     $("#hamburger-icon").toggleClass("bi bi-x");
-  })
-  
+  });
+
+
+
 
     // Note, arrow functions do not pick up "this" and will refer to the parent container if used. Used regular func() if "this" is used.
  

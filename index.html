@@ -16,14 +16,16 @@
 <body>
     <header class="container-fluid" id="header-container">
         <div class="row pt-2">
-            <div class="col-12 col-md-6 text-nowrap">
+            <div class="col-12 col-md-6 col-lg-5 text-nowrap">
                 <div class="display-5 mb-2">Provider Resolutions</div>
             </div>
-            <div class="d-none d-md-inline col-md-6 text-center text-nowrap mt-3">
-                <div class="d-md-inline-block col-md-3 nav-element pr-1 pl-1 mr-1">About</div>
-                <div class="d-md-inline-block col-md-3 nav-element mr-1">Resources</div>
-                <div class="d-md-inline-block col-md-3 nav-element mr-1">New Tab</div>
-                <div class="d-md-inline-block col-md-3 nav-element mr-1">Contact</div>
+            <div class="d-none d-md-inline col-md-6 text-center text-nowrap" id="nav-container">
+                <a class="link" href="#about-title"><div class="d-md-inline-block col-md-3 nav-element mt-1 mt-lg-2 pt-2 pb-2">About</div></a>
+                <a class="link" href="#book-background"><div class="d-md-inline-block col-md-3 nav-element mt-1 mt-lg-2 pt-2 pb-2">Resources</div></a>
+                <a class="link" href="#about-title"><div class="d-md-inline-block col-md-3 nav-element mt-1 mt-lg-2 pt-2 pb-2">New Tab</div></a>
+                <a class="link" href="#contact-home"><div class="d-md-inline-block col-md-3 nav-element mt-1 mt-lg-2 pt-2 pb-2">Contact</div></a>
+            </div>
+            <div class="col-12 text-center pt-1 pb-1" id="sub-header"><span>Resolving all conflicts affecting the Healthcare Practicioner.</span>
             </div>
             <!-- Mobile Dropdown -->
             <div class="col-12 d-md-none d-flex justify-content-center text-center dropdown" id="hamburger-container">
@@ -32,15 +34,15 @@
                     <i class="bi bi-list" id="hamburger-icon"></i>
                 </button>
                 <ul class="col-12 text-center dropdown-menu" aria-labelledby="dropdownMenuMobile">
-                    <li><a class="dropdown-item" href="#">About Provider Resolutions</a></li>
+                    <li><a class="dropdown-item" href="#about-title">About</a></li>
                     <li>
                         <hr class="dropdown-divider">
                     </li>
-                    <li><a class="dropdown-item" href="#">Conflict Engagement and Dispute Resolution</a></li>
+                    <li><a class="dropdown-item" href="#book-background">Resources</a></li>
                     <li>
                         <hr class="dropdown-divider">
                     </li>
-                    <li><a class="dropdown-item" href="#">Contact J. Michael Schneider</a></li>
+                    <li><a class="dropdown-item" href="#contact-home">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -62,9 +64,7 @@
                     Healthcare Systems.</div>
                 <!-- Delete this-->
                 <div class="col-12 col-md-6 mt-4 mb-4">
-                    <div id="pr-detail-header"> Provider Resolutions succinctly distills academic principals of
-                        alternative dispute resolution and conflict engagement for the healthcare provider, teaching
-                        critical information needed by every medical technician, nurse, doctor and administrator.</div>
+                    <div id="pr-detail-header">  Provider Resolutions is an American mediation firm headquartered in Portland, Oregon that provides the best medition resources for all in the Healthcare sector.</div>
                     <!-- Title 2 -->
                     <div id="j-michael-title" class="d-none d-md-block text-center rounded-left rounded-right mt-4 p-2">
                         Dr. J. Michael Schneider leads the firm of legal and healthcare professionals providing
@@ -79,7 +79,7 @@
             <div class="row">
                 <div class="col-12 text-center mt-4 display-5 font-weight-bold" id="email-card-header">Conflict
                     Management Tips Weekly</div>
-                <div class="col-12 text-center">Enter your email below to receive daily healthcare conflict management
+                <div class="col-12 text-center">Enter your email below to receive weekly healthcare conflict management
                     tips.</div>
             </div>
             <div class="row">
@@ -87,7 +87,7 @@
                     <form class="col-12 mt-4 mb-3" id="contact-form" method="post">
                         <label for="home-name">Name:</label>
                         <input class="col-12 mb-2" id="home-name" type="text" placeholder="Enter Your Name">
-                        <label>Email:</label>
+                        <label for="home-email">Email:</label>
                         <input class="col-12 mb-3" id="home-email" type="email" placeholder="Enter Your Email">
                         <input class="col-12" type="submit" disabled>
                     </form>
@@ -100,8 +100,9 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 text-center h2 mt-4 mb-3" id="about-title">About The Firm</div>
-                <div class="d-none d-md-block col-md-4">
+                <div class="d-none d-md-block col-md-4 text-center">
                     <img class="about-photos-desktop mb-2" src="assets/docs-smiling.jpg">
+                    <div><b>Modern Mediation</b></div>
                     <div class="mt-2 mb-4">
                         Dr. Schneider and the Provider Resolutions team consult remotely and in person to address the
                         daily disagreements between staff, partnership disputes, contract negotiations, and tort claims
@@ -110,6 +111,7 @@
                 </div>
                 <div class="d-none d-md-block col-md-4 text-center">
                     <img class="about-photos-desktop mb-2" src="assets/doc-examining.jpg">
+                    <div><b>Results Delivered</b></div>
                     <div class="mt-2 mb-4">
                         Provider Resolution's conflict management results in improvement in the quality of healthcare
                         delivered, patient safety, and ensuring practitioner’s sense of professional fulfilment within
@@ -117,13 +119,15 @@
                         conflict.
                     </div>
                 </div>
-                <div class="d-none d-md-block col-md-4 mb-4 text-end">
+                <div class="d-none d-md-block col-md-4 mb-4 text-center">
                     <img class="about-photos-desktop mb-2" src="assets/signing.jpg">
+                    <div><b>Learn More</b></div>
                     <div class="mt-2 mb-4">
                         Provider Resolutions provides multiple resources critical to conflict management to those in the
                         healthcare, mediation, and arbitration sectors. Schedule time with our team to learn more.
                     </div>
                 </div>
+                <!-- Mobile Slideshow Elements -->
                 <div class="col-12 d-md-none text-center" id="slideshow">
                     <div>
                         <img class="about-photos mb-3" src="assets/docs-smiling.jpg">
@@ -194,7 +198,7 @@
     <section class="post-header-body">
         <div class="container-fluid">
             <div class="row pb-3">
-                <div class="col-12 text-center display-6 mb-2">
+                <div class="col-12 text-center display-6 mb-2" id="contact-home">
                     Contact Us
                 </div>
                 <div class="col-12 text-center mb-3">

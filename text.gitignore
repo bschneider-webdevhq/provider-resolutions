@@ -6,13 +6,9 @@
 
 ** Forms needed a UI makeover
 
-** Resizing when the mobile nav is open causes nav to collapse, and the icon to remain constant, meaning that the "X" will not disappear if the nav collapses due to resizing.
-
-** Clicking out also doesnt change x back
 
 # To Do
 
-** Nav icons for desktop version
 
 ** About (Book, Blog, Udemy)
 
@@ -24,6 +20,7 @@
 
 ** Signature (New Logo)
 
+** Verify content with Google, do this before meta injection. example: <meta name="google-site-verification" content="FgFc5q1BeoYFUHMh_nGFv3NiEzF1cVeM22vvwQ-eS4A">
 
 
 # Nice to Have
@@ -34,12 +31,12 @@
 
 ** Better dropdown menu
 
+** Inject this block to the <head> edit it for additional keywords 
+
+<meta name="keywords" content="Collaboration, Leadership, Negotiation, Mediation, Conflict Management World, global, climate change, iraq, iran, middle east, on line, mediation, negotiation, conflict, dispute, resolution,  divorce, articles, resources, web site, technology, Internet, marketing, DVD, video, CD, audio, education, collaborative, lawyer, lawyers, divorce, articles, web site, marketing, education, online, secure, discussion, mediator, find, directory, law, attorney, ADR, dispute, resolution, dispute resolution, mediators, section, sections, mediate, mediator, locate, articles, conflict, communication, mediate, conflict resolution, for conflict resolution, aba, practitioner, mediator, arbitration, negotiation, resources, negotiate, lawyers, attorneys, legal, family, psychologist, court, custody, visitation, child, child support, support, spousal, property, civil, workplace, employment, dispute, resolution, negotiation, negotiate, facilitation, facilitate, business, commercial, Internet, court, judge, state, federal, local, find, California, New York, web, site, arbitration, arbitrate, degree, academic, school, education, information, technology, resourceful, mediate.com, united, states, terrorism, usa, america, global, world, Alabama, Alaska, Arkansas, Arizona, California, Kansas, Idaho, Illinois, Indiana, North Dakota, South Dakota, Wisconsin, Washington, Oregon, New Mexico, Canada, Training, montana, wyoming, Nebraska, Missouri, Louisiana, Georgia, South Carolina, North Carolina, Mississippi, Florida, Virginia, DC, D.C., Washington, DC, Washington D.C., national, national mediation, US, U.S., mediation network, Maryland, Delaware, Vermont, Virgina, Boston, Connecticut, New Jersey, Pennsylvania, Ohio, Iowa, Kentucky, Tennessee, Michigan, Minnesota, New Hampshire, Delaware, Los Angeles, Chicago, Philadelphia, San Francisco, Sacramento, web, website, dynamic, MediatorDirect, Locate A Mediator, Locate, Find, Network, Net, court mediation, lawyer mediation, attorney mediation, mediaite, mediaite.com">
+
 
 # Dad Request
-
-** center justified paragraps in About
-
-** delete left border paragraph next to image
 
 ** book hover to amazon
 

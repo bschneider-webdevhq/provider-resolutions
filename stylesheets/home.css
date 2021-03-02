@@ -11,6 +11,11 @@ body {
     color: #fbfbfb
 }
 
+#sub-header {
+    background-color: #336799;
+    box-shadow: 4px 2.5px 5px #181818;
+}
+
 #hamburger-container {
     background-color: #336799;
 }
@@ -124,7 +129,7 @@ body {
     border-radius: 2px; 
 }
 
-.contact-link:hover, .contact-link:focus {
+.contact-link:hover {
     color: #fbfbfb;
     background-color: #05a7cd;
 }
@@ -134,15 +139,26 @@ footer {
     color: #fbfbfb;
 }
 
+.link {
+    color: inherit;
+}
+
+#nav-container {
+    background-color: #05a7cd;
+}
+
 /* Note this */
 .nav-element {
-    background: linear-gradient(to left, #05a7cd 51%, white 49%) right center;
+    background: linear-gradient(to left, #05a7cd 50%, white 50%) right;
+    /* Container blends <1% of white gradient with resize. Border protects element from blending into white */
+    border: 2.5px solid #05a7cd;
     background-size: 200%;
     transition: .25s ease-out;
 }
 
 .nav-element:hover {
-    background-position: left center;
+    /* Shorthand for left center */
+    background-position: left;
     color: #05a7cd;
 }
 

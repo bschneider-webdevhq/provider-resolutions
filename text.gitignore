@@ -2,13 +2,9 @@
 
 # CRITICAL
 
-** Rename home.js to home.js.jquery; or whatever the best naming practice is
-
-** Forms needed a UI makeover
-
+** Separate JSON from HTML in seperate file
 
 # To Do
-
 
 ** About (Book, Blog, Udemy)
 
@@ -22,6 +18,17 @@
 
 ** Verify content with Google, do this before meta injection. example: <meta name="google-site-verification" content="FgFc5q1BeoYFUHMh_nGFv3NiEzF1cVeM22vvwQ-eS4A">
 
+** Simplify CSS with variables, do for ebay site too
+
+** Need address, phone, linkedin and chatbot link over contact building image
+
+** Organize Comments, use ASCII from ebay 
+
+** mobile cta:
+- All: color of lefthand background as box shadow
+- Phone: Call
+- Mail: open email client
+- Map: Google Map location
 
 # Nice to Have
 
@@ -35,6 +42,7 @@
 
 <meta name="keywords" content="Collaboration, Leadership, Negotiation, Mediation, Conflict Management World, global, climate change, iraq, iran, middle east, on line, mediation, negotiation, conflict, dispute, resolution,  divorce, articles, resources, web site, technology, Internet, marketing, DVD, video, CD, audio, education, collaborative, lawyer, lawyers, divorce, articles, web site, marketing, education, online, secure, discussion, mediator, find, directory, law, attorney, ADR, dispute, resolution, dispute resolution, mediators, section, sections, mediate, mediator, locate, articles, conflict, communication, mediate, conflict resolution, for conflict resolution, aba, practitioner, mediator, arbitration, negotiation, resources, negotiate, lawyers, attorneys, legal, family, psychologist, court, custody, visitation, child, child support, support, spousal, property, civil, workplace, employment, dispute, resolution, negotiation, negotiate, facilitation, facilitate, business, commercial, Internet, court, judge, state, federal, local, find, California, New York, web, site, arbitration, arbitrate, degree, academic, school, education, information, technology, resourceful, mediate.com, united, states, terrorism, usa, america, global, world, Alabama, Alaska, Arkansas, Arizona, California, Kansas, Idaho, Illinois, Indiana, North Dakota, South Dakota, Wisconsin, Washington, Oregon, New Mexico, Canada, Training, montana, wyoming, Nebraska, Missouri, Louisiana, Georgia, South Carolina, North Carolina, Mississippi, Florida, Virginia, DC, D.C., Washington, DC, Washington D.C., national, national mediation, US, U.S., mediation network, Maryland, Delaware, Vermont, Virgina, Boston, Connecticut, New Jersey, Pennsylvania, Ohio, Iowa, Kentucky, Tennessee, Michigan, Minnesota, New Hampshire, Delaware, Los Angeles, Chicago, Philadelphia, San Francisco, Sacramento, web, website, dynamic, MediatorDirect, Locate A Mediator, Locate, Find, Network, Net, court mediation, lawyer mediation, attorney mediation, mediaite, mediaite.com">
 
+** Offline version of site that uses downloaded packages instead of CDN links, if BS, jQ, or other library goes down
 
 # Dad Request
 

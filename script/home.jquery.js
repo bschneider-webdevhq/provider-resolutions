@@ -1,3 +1,7 @@
+// Opt. jQuery bling alias should $ conflict with other libraries.
+// NOTE: Will require instances of $ to be replaced with below variable.
+//let $blingOpt = jQuery.noConflict();
+
 $(document).ready(() => {
 
   console.log("ready");

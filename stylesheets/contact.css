@@ -3,16 +3,29 @@ body {
     padding: 0;
     margin: 0;
     font-size: 1em;
+    background-color: #336799;
+}
+
+#contact-container {
+    background-color: #fff;
+    box-shadow: 2px 3px 2.5px #181818;
+    max-height: 690px;
+    /* Hides y-axis overflow as the result of image resizing */
+    overflow-y: hidden;
+}
+
+img {
+    height: 100%;
+    filter: brightness(12.5%);
 }
 
 #header-container {
     background-color: #05a7cd;
-    color: #fbfbfb
+    color: #fbfbfb;
+    box-shadow: 0px 2.5px 5px #181818;
 }
 
 .post-header-body {
-    width: 80%;
-    margin: auto;
     background-color: #fbfbfb;
 }
 
@@ -24,3 +37,47 @@ a {
 a:hover {
     color: inherit;
 }
+
+#address-container {
+    top: 120px;
+    overflow: hidden;
+}
+
+#contact-mobile {
+    background-color: #336799;
+}
+
+/* 1st, 3rd, and 5th element selected since classes share similar name
+contact-mobile-method && contact-mobile-method-detail */
+.contact-mobile-method:nth-of-type(1n) {
+    background-color: #57ca4b;
+    color: #fbfbfb;
+}
+
+.contact-mobile-method:nth-of-type(3n){
+    background-color: #19A7F2;
+    color: #fbfbfb;
+}
+
+.contact-mobile-method:nth-of-type(5n) {
+    background-color: #DD3B29;
+}
+
+.contact-mobile-method-detail {
+    background-color: #fbfbfb;
+}
+
+
+/* Color Palette
+
+Dark Blue - #336799
+
+White - #FBFBFB
+
+Orange - #E37223
+
+Light Blue - #05A7CD
+
+Black - #181818
+
+*/

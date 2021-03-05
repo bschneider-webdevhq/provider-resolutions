@@ -1,12 +1,16 @@
 -- Issue List -- 
 
+# Note: Apple+K+Back = s̶t̶r̶i̶k̶e̶t̶h̶r̶o̶u̶g̶h̶
+
+# If using SO, make and show an attempt to answer your question before posting.
+
 # CRITICAL
 
 ** Separate JSON from HTML in seperate file
 
 # To Do
 
-** About (Book, Blog, Udemy)
+** About (B̶o̶o̶k̶, Blog, Udemy)
 
 ** alts needed
 
@@ -15,6 +19,8 @@
 ** Footer (Mobile, Desktop)
 
 ** Signature (New Logo)
+
+** Amazon logo needs to wrapped in a radius container with a hover effect and hand icon. Complement with an orange container with book with no linear gradient.
 
 ** Verify content with Google, do this before meta injection. example: <meta name="google-site-verification" content="FgFc5q1BeoYFUHMh_nGFv3NiEzF1cVeM22vvwQ-eS4A">
 
@@ -30,7 +36,13 @@
 - Mail: open email client
 - Map: Google Map location
 
+** Success page with confirmation, with mobile ctas above and a return home button.
+
+** Outlook Signature using HTML (Create file, copy to browser, and paste conents into signature box)
+
 # Nice to Have
+
+** hover over icons in contact page causes them to animate once (desktop only)
 
 ** Favicon should represent an app icon if users add it to their iphone homescreen.
 
@@ -38,7 +50,7 @@
 
 ** Better dropdown menu
 
-** Inject this block to the <head> edit it for additional keywords 
+** Inject this block to the <head> edit it for additional keywords (study the properties for this tag, could be more to help SEO)
 
 <meta name="keywords" content="Collaboration, Leadership, Negotiation, Mediation, Conflict Management World, global, climate change, iraq, iran, middle east, on line, mediation, negotiation, conflict, dispute, resolution,  divorce, articles, resources, web site, technology, Internet, marketing, DVD, video, CD, audio, education, collaborative, lawyer, lawyers, divorce, articles, web site, marketing, education, online, secure, discussion, mediator, find, directory, law, attorney, ADR, dispute, resolution, dispute resolution, mediators, section, sections, mediate, mediator, locate, articles, conflict, communication, mediate, conflict resolution, for conflict resolution, aba, practitioner, mediator, arbitration, negotiation, resources, negotiate, lawyers, attorneys, legal, family, psychologist, court, custody, visitation, child, child support, support, spousal, property, civil, workplace, employment, dispute, resolution, negotiation, negotiate, facilitation, facilitate, business, commercial, Internet, court, judge, state, federal, local, find, California, New York, web, site, arbitration, arbitrate, degree, academic, school, education, information, technology, resourceful, mediate.com, united, states, terrorism, usa, america, global, world, Alabama, Alaska, Arkansas, Arizona, California, Kansas, Idaho, Illinois, Indiana, North Dakota, South Dakota, Wisconsin, Washington, Oregon, New Mexico, Canada, Training, montana, wyoming, Nebraska, Missouri, Louisiana, Georgia, South Carolina, North Carolina, Mississippi, Florida, Virginia, DC, D.C., Washington, DC, Washington D.C., national, national mediation, US, U.S., mediation network, Maryland, Delaware, Vermont, Virgina, Boston, Connecticut, New Jersey, Pennsylvania, Ohio, Iowa, Kentucky, Tennessee, Michigan, Minnesota, New Hampshire, Delaware, Los Angeles, Chicago, Philadelphia, San Francisco, Sacramento, web, website, dynamic, MediatorDirect, Locate A Mediator, Locate, Find, Network, Net, court mediation, lawyer mediation, attorney mediation, mediaite, mediaite.com">
 
@@ -57,3 +69,8 @@ update logo with transparent background
 
 social networks
 
+# WDHQ
+
+revenue sharing program, let us run ads on your site or game, and profit based on those ads. 90/10 mix. Compare to other profit sharing like YT.
+
+domain arbitrage, how owning a domain and building a site and brand can make your serious $$$, only through WDHQ

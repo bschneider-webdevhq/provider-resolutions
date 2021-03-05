@@ -6,6 +6,10 @@ body {
     background-color: #336799;
 }
 
+.form-error, .req {
+    color: red;
+}
+
 #contact-container {
     background-color: #fff;
     box-shadow: 2px 3px 2.5px #181818;
@@ -47,25 +51,42 @@ a:hover {
     background-color: #336799;
 }
 
-/* 1st, 3rd, and 5th element selected since classes share similar name
-contact-mobile-method && contact-mobile-method-detail */
-.contact-mobile-method:nth-of-type(1n) {
-    background-color: #57ca4b;
-    color: #fbfbfb;
+
+
+.contact-mobile-method {
+    background-color: #fbfbfb;
+    cursor: pointer;
+}
+
+.contact-mobile-method:first-of-type {
+    box-shadow: -1px 2.5px 3px #57ca4b;
+}
+
+.contact-mobile-method:nth-of-type(2n){
+    box-shadow: -1px 2.5px 3px #19a7f2;
 }
 
 .contact-mobile-method:nth-of-type(3n){
-    background-color: #19A7F2;
+    box-shadow: -1px 2.5px 3px #dd3b29;
+}
+
+.contact-mobile-method > div > i{
     color: #fbfbfb;
 }
 
-.contact-mobile-method:nth-of-type(5n) {
-    background-color: #DD3B29;
+#contact-mobile-method-phone {
+    background-color: #57ca4b;
 }
 
-.contact-mobile-method-detail {
-    background-color: #fbfbfb;
+#contact-mobile-method-mail {
+    background-color: #19a7f2;
 }
+
+#contact-mobile-method-map {
+    background-color: #dd3b29;
+}
+
+
 
 
 /* Color Palette

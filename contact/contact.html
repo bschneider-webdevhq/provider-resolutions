@@ -9,21 +9,41 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../stylesheets/contact.css">
     <style>
-        .form-error,
-        .req {
-            color: red;
-        }
+        
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
+
+        // Regex
+        var numRegex = /((\(\d{3}\) ?)|(\d{3}-))?\d{3}-\d{4}/g;
+        var nameVal = /[A-Za-z]{1}[A-Za-z]/;
+        var mobileVal = /[0-9.()-]{10}/;
+        var emailVal = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,6})?$/;
+
+        // Validates string into a phone number for all browsers and calls it in a new tab/window.
+        function callNumber(num) {
+            vNum = num.replace(numRegex, "tel:$&");
+            window.open(vNum);
+        }
+
+        function sendGeneralEmail() {
+            let toAddress = $("#toEmailAddress").text();
+            // Removes padding carried from string.
+            const toAddressRegex = toAddress.replace(/^\s+|\s+$/g, '');
+            const subj = "Provider Resolutions Inquiry";
+            document.location = "mailto:"+toAddressRegex+"?subject="+subj;
+        }
+
+        function prLocation() {
+            const point = "https://www.google.com/maps/place/Portland,+OR/@45.5428515,-122.9345043,10z/data=!3m1!4b1!4m5!3m4!1s0x54950b0b7da97427:0x1c36b9e6f6d18591!8m2!3d45.5051064!4d-122.6750261";
+            window.open(point);
+        }
+
+        //https://www.google.com/maps/place/Portland,+OR/@45.5428515,-122.9345043,10z/data=!3m1!4b1!4m5!3m4!1s0x54950b0b7da97427:0x1c36b9e6f6d18591!8m2!3d45.5051064!4d-122.6750261
+
         function submitToAPI(e) {
             e.preventDefault();
             var URL = "https://ss0981l870.execute-api.us-east-1.amazonaws.com/product";
-
-            // Regex
-            var nameVal = /[A-Za-z]{1}[A-Za-z]/;
-            var mobileVal = /[0-9.()-]{10}/;
-            var emailVal = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,6})?$/;
 
             // Input form validation
 
@@ -95,7 +115,7 @@
             </div>
         </div>
     </header>
-    <section class="post-header-body m-4" id="contact-container">
+    <section class="post-header-body m-4 mb-5" id="contact-container">
         <div class="container-fluid">
             <div class="row">
                 <div class="d-none d-md-block col-md-6 p-0 m-0 position-relative">
@@ -155,7 +175,7 @@
                             </button>
                             <br>
                             <br>
-                            <span>Fields With <span class="req">*</span> Are Required.</span>
+                            <div class="col-12 fs-6 fw-light">Fields with <span class="req">*</span> are required.</div>
                         </form>
                     </div>
                 </div>
@@ -164,26 +184,31 @@
     </section>
     <section class="d-block d-md-none post-header-body m-4">
         <div class="container-fluid" id="contact-mobile">
-            <div class="row text-center">
-                <div class="col-2 pt-4 pb-4 mb-4 contact-mobile-method">
+            <div class="row text-center mb-4 contact-mobile-method" onclick="callNumber('tel:17609088638');">
+                <div class="col-2 pt-4 pb-4" id="contact-mobile-method-phone">
                     <i class="bi bi-telephone-fill"></i>
                 </div>
-                <div class="col-10 mb-4 pt-4 contact-mobile-method-detail">
+                <div class="col-10 mb-4 pt-4">
                     <div>+1 (760) 908-8638</div>
                 </div>
-                <div class="col-2 pt-4 pb-4 mb-4 contact-mobile-method">
+            </div>
+            <div class="row text-center mb-4 contact-mobile-method" onclick="sendGeneralEmail()">
+                <div class="col-2 pt-4 pb-4" id="contact-mobile-method-mail">
                     <i class="bi bi-envelope-fill"></i>
                 </div>
-                <div class="col-10 p-4 mb-4 text-truncate contact-mobile-method-detail">
+                <div class="col-10 p-4 text-truncate" id="toEmailAddress">
                     jmichaelschneidermd@gmail.com
                 </div>
-                <div class="col-2 pt-4 pb-4 mb-4 contact-mobile-method">
+            </div>
+            <div class="row text-center contact-mobile-method" onclick="prLocation()">
+                <div class="col-2 pt-4 pb-4" id="contact-mobile-method-map">
                     <i class="bi bi-geo-alt-fill"></i>
                 </div>
-                <div class="col-10 p-4 mb-4 contact-mobile-method-detail">
+                <div class="col-10 p-4">
                     Portland, Oregon
                 </div>
             </div>
+        </div>
         </div>
     </section>
 </body>

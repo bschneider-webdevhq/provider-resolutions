@@ -4,7 +4,7 @@
 
 $(document).ready(() => {
 
-  console.log("ready");
+  console.log("Ready");
 
 
 
